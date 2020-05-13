@@ -148,6 +148,11 @@ what you learned today */
 
 
 /* 🏡 Explore using `window.prompt()` to allow a user to input parameters in the browser */
+principal = window.prompt('How many cash you need?');
+years = window.prompt('How many years you planing to pay?');
+creditScore = window.prompt('What is your Credit Score?');
+console.log(myName, ", your monthly rate is $", mortgageCalculator(principal, interest, years, creditScore));
+
 
 
 /* 🏡  Refactor your `variableInterestRate()` function to accept an array of interest rates (make sure to copy and paste as to not lose your work!) */
